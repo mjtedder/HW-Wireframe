@@ -18,9 +18,7 @@ To run this code locally, clone this repository with the following command:
       
 Download and open file with your favorite text-editor:
 
-   [VS Code](https://code.visualstudio.com/)
-   [Atom](https://atom.io/)
-   [Sublime Text](https://www.sublimetext.com/)
+   [VS Code](https://code.visualstudio.com/) | [Atom](https://atom.io/) | [Sublime Text](https://www.sublimetext.com/)
       
 
 ## Author
