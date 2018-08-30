@@ -1,5 +1,5 @@
 body {
-    /* centers content */
+    /* centers content of entire document */
     margin: auto;
     font-family: Arial, 'Helvetica-Neue', Helvetica, sans-serif;
     font-size: 18px;
@@ -9,6 +9,7 @@ body {
     width: 960px;
 }
 
+/* creates box for all elements listed */
 header,
 nav,
 section,
@@ -23,34 +24,47 @@ footer {
     background: #ebebeb;
 }
 
+
 section {
     display: block;
+    /* allow aside to be displayed on same level */
     float: left;
+    /* box will take up 495px of entire 960px */
     width: 495px;
     height: 267px;
+    /* hides any content that spills out of the box */
     overflow: hidden;
 }
 
 aside {
     display: block;
+    /* allow section to be displayed on the same level */
     float: right;
+    /* box will take up 40% of the total width (960px) */
     width: 40%;
+    /* same height as section content */
     height: 267px;
+    /* hides any content that spills out of the box */
     overflow: hidden;
 }
 
 article {
+    /* box design for article */
     background: #777;
     color: #ebebeb;
     padding: 10px;
 }
 
+/* created a div with class .clear in order to clear above floats */
+/* this also separates footer from above content so it appears as its own box */
 .clear {
     clear: both;
 }
 
+/* box design for h1 and p elements inside of article */
 h1,
 p {
+    /* this is relative to the parent element (article) */
     width: 90%;
     margin: 10px;
     text-align: center;
